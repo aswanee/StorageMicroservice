@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageMicroservice", "StorageMicroservice\StorageMicroservice.csproj", "{64688692-32A0-46E0-914A-D0D0A0F77E13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{31C0BF2D-D66C-445E-A3B2-A64395CA7066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64688692-32A0-46E0-914A-D0D0A0F77E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64688692-32A0-46E0-914A-D0D0A0F77E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64688692-32A0-46E0-914A-D0D0A0F77E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64688692-32A0-46E0-914A-D0D0A0F77E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C0BF2D-D66C-445E-A3B2-A64395CA7066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C0BF2D-D66C-445E-A3B2-A64395CA7066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C0BF2D-D66C-445E-A3B2-A64395CA7066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C0BF2D-D66C-445E-A3B2-A64395CA7066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC7C70B6-210D-4786-BD9A-4D97040912B2}
+	EndGlobalSection
+EndGlobal
